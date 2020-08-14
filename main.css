@@ -1,6 +1,12 @@
+@import url();  /* Uvezi fontove */
+
+:root{				/*varijable za boje*/
+	--xxx:xxx; /*  heksadec(#xxxx) ili rgb(255,255,255)   */
+}
 *{
 	margin:0;
 	padding:0;
+	box-sizing:boarder-box;  /* U box modelu nema sirenja van okvira*/
 	
 }
 		/***** HEADER *****/
@@ -13,5 +19,9 @@ section{
 }
 		/***** FOOTER *****/
 footer{
+	
+}
+		/***** RESPONSIVE *****/
+@media(max-width:768){
 	
 }
