@@ -3,6 +3,7 @@
 :root{				/*varijable za boje*/
 	--xxx:xxx; /*  heksadec(#xxxx) ili rgb(255,255,255)   */
 }
+                /***** NORMALIZACIJA *****/
 *{
 	margin:0;
 	padding:0;
